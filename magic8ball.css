@@ -1,0 +1,22 @@
+/*// test*/
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  background-image: url("http://image.naldzgraphics.net/2012/01/3-diamonds-black.jpg")
+}
+
+.col-md-6 {
+  background-color: white;
+  padding: 50px;
+}
+
+.jumbotron {
+  font-family: 'Bangers', cursive;
+  margin-bottom: 50px;
+  background-color: white;
+  margin-top: 50px;
+}
+
+.jumbotron > p {
+  font-size: 1000%;
+}

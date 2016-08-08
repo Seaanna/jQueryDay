@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hi/Lo Game</title>
+    <link type = "text/css" rel="stylesheet" href="game.css"/>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="game.js"></script>
+
+  </head>
+  <body>
+    <h1>Hi/Lo Game</h1>
+    <input type="text" id="nameBox"/>
+    <input type="button" value="Submit Name" onclick="getName()"/> <br>
+    <input type="text" id="inputBox"/>
+    <input id = "inputButton" type="button" value="Submit Guess"/>
+    <p id="outPut">Lets play a game. Enter your name.</p>
+    <p id = guessesLeft> You have 7 guesses left.</p>
+    <input type="button" value="Restart" onclick="reStart()"/>
+  </body>
+</html>
